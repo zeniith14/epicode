@@ -12,3 +12,6 @@ print(f" potrebbe essere {brand}" )
 
 
 
+
+
+
