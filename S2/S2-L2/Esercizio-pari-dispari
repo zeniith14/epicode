@@ -1,0 +1,89 @@
+
+
+
+
+
+
+def pari_dispari():
+    try:
+        n = int(input("Inserisci un numero: "))
+        if n % 2 == 0:
+            print(f"{n} è un numero pari.")
+        else:
+            print(f"{n} è un numero dispari.")
+    except ValueError:
+        print("Per favore, inserisci un numero valido.")
+
+
+def media():
+    try:
+        while True:
+            n = int(input("Metti numeri: (0 per terminare) "))
+            if n == 0:
+                break
+            num = []
+            num.append(n)
+        if len(num) > 0:
+            media = sum(num) / len(num)
+            print(f"La media dei numeri inseriti è: {int(media)}")
+
+    except ValueError:
+        print("Per favore, inserisci un numero valido.")
+    
+
+def tabellina():
+    try:
+        n = int(input("Inserisci un numero: "))
+        for i in range(1, 11):
+            print(f"{n} x {i} = {n * i}")
+    except ValueError:
+        print("Per favore, inserisci un numero valido.")
+
+
+def vocali():
+
+    try:
+        parola = input("inserisci una parola: ")
+        vocali = "aeiouAEIOU"
+        conta_vocali = sum(1 for lettera in parola if lettera in vocali)
+        print(f"La parola '{parola}' contiene {conta_vocali} vocali.")
+    except Exception as e:
+        print(f"Si è verificato un errore: {e}")
+
+
+def massimo():
+    try: 
+        numeri = []
+        while True:
+            n = int(input("Inserisci un numero (0 per terminare): "))
+            if n == 0:
+                break
+            numeri.append(n)
+        if numeri:
+            massimo = max(numeri)
+            print(f"Il numero più grande inserito è: {massimo}")
+    except ValueError:
+        print("Per favore, inserisci un numero valido.")
+
+
+def inverto():
+    try:
+        parola = input("inserisci una parola: ")
+        parola_invertita = parola[::-1]
+        print(f"La parola invertita è: {parola_invertita}")
+        inv = []
+        for i in parola.split():
+            inv.append(i)
+        for x in inv[::-1]:
+            print(x)
+
+    except Exception as e:
+        print(f"Si è verificato un errore: {e}")
+
+pari_dispari()   
+media()
+tabellina()
+vocali()
+massimo()
+inverto() 
+inverto()
