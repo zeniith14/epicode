@@ -22,7 +22,7 @@ while True:
                 if n  == str:
                     print("Input non valido. Per favore, inserisci un numero intero.")
         # cerchio
-        if n == 2:
+        elif n == 2:
             try:
                 
                 raggio = float(input("Inserisci il raggio del cerchio: "))
@@ -33,7 +33,7 @@ while True:
                 if n  == str:
                     print("Input non valido. Per favore, inserisci un numero intero.")
         # rettangolo
-        if n == 3:
+        elif n == 3:
             try:
 
 
@@ -46,9 +46,13 @@ while True:
                 print("Input non valido. Per favore, inserisci un numero.")
                 if n  == str:
                     print("Input non valido. Per favore, inserisci un numero intero.")
+        else:
+            print("Scelta non valida. Per favore, inserisci un numero tra 1 e 4.")
                     
 
     except ValueError:
         print("Input non valido. Per favore, inserisci un numero intero.")
-        if n > 6 or n < 1:
-            print("Numero non valido. Per favore, inserisci un numero tra 1 e 4.")
+        if n != int:
+            print("Input non valido. Per favore, inserisci un numero intero.")
+       
+        
