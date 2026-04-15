@@ -52,7 +52,7 @@ while True:
 
     except ValueError:
         print("Input non valido. Per favore, inserisci un numero intero.")
-        if n != int:
-            print("Input non valido. Per favore, inserisci un numero intero.")
+    except Exception as e:
+        print(f"Si è verificato un errore: {e}")
        
         
