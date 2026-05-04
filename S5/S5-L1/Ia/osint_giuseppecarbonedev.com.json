@@ -1,0 +1,12 @@
+{
+  "dominio": "giuseppecarbonedev.com",
+  "timestamp": "2026-05-04T11:53:53.004389",
+  "dns": {
+    "A": "217.160.46.114",
+    "MX": "10 mx00.ionos.it.\n10 mx01.ionos.it.",
+    "NS": "ns1033.ui-dns.biz.\nns1056.ui-dns.org.\nns1034.ui-dns.com.\nns1106.ui-dns.de.",
+    "TXT": "\"v=spf1 include:_spf-eu.ionos.com ~all\"",
+    "CNAME": ""
+  },
+  "whois_estratto": "   Domain Name: GIUSEPPECARBONEDEV.COM\n   Registry Domain ID: 3085560970_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: whois.ionos.com\n   Registrar URL: http://www.ionos.com\n   Updated Date: 2026-04-07T22:45:37Z\n   Creation Date: 2026-04-07T22:45:36Z\n   Registry Expiry Date: 2027-04-07T22:45:36Z\n   Registrar: IONOS SE\n   Registrar IANA ID: 83\n   Registrar Abuse Contact Email: abuse@ionos.com\n   Registrar Abuse Contact Phone: +1.6105601459\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Name Server: NS1033.UI-DNS.BIZ\n   Name Server: NS1034.UI-DNS.COM\n   Name Server: NS1056.UI-DNS.ORG\n   Name Server: NS1106.UI-DNS.DE\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2026-05-04T15:53:43Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes "
+}
